@@ -18183,6 +18183,23 @@ data:extend({
       {type = "item", name = "sp-kr-superior-long-inserter", amount = 1}
     }
   },
+  {
+    type = "recipe",
+    name = "long-handed-stack-inserter",  -- #ForRegEx# - recipe
+    icon_size = 64,
+    mip_maps = 4,
+    category = "crafting",
+    energy_required = 10,
+    enabled = true,
+    allow_productivity = true,
+    ingredients = {
+      {type = "item", name = "long-handed-inserter", amount = 1},
+      {type = "item", name = "bulk-inserter", amount = 1},
+    },
+    results = {
+      {type = "item", name = "long-handed-stack-inserter", amount = 1}
+    }
+  },
   ------------------------------------------------------------------------------
   -- MARK: Transport belts
   ------------------------------------------------------------------------------
