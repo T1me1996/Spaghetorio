@@ -211,3 +211,8 @@ data.raw["item-subgroup"]["fill-barrel"].group = "fluids"
 data.raw["item-subgroup"]["fill-barrel"].order = "z-f"
 data.raw["item-subgroup"]["empty-barrel"].group = "fluids"
 data.raw["item-subgroup"]["empty-barrel"].order = "z-g"
+
+-- MARK: beacon change
+data.raw["beacon"]["beacon"].distribution_effectivity = 1.5
+data.raw["beacon"]["beacon"].distribution_effectivity_bonus_per_quality_level = 0.4
+data.raw["beacon"]["beacon"].allowed_effects = {"speed", "quality", "consumption", "pollution"}
