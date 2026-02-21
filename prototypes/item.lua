@@ -10393,6 +10393,17 @@ data:extend({
     place_result = "sp-kr-superior-long-inserter",
     stack_size = 50,
   },
+    {
+    type = "item",
+    name = "long-handed-stack-inserter",  -- #ForRegEx# - building
+    icon = "__Spaghetorio__/graphics/krastorio/icons/entities/inserters/long-handed-stack-inserter.png",
+    icon_size = 64,
+    icon_mipmaps = 4,
+    subgroup = "inserter",
+    order = "g3[long-handed-stack-inserter]",
+    place_result = "long-handed-stack-inserter",
+    stack_size = 50,
+  },
   -- MARK: pipes
   -- TODO: add pipes once content can be filtered
   -- {
